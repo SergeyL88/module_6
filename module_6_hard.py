@@ -100,7 +100,7 @@ cube1 = Cube((222, 35, 130), 6)
 # # Проверка на изменение цветов:
 circle1.set_color(55, 66, 77)  # Изменится
 print(circle1.get_color())
-cube1.set_color(300, 70, 15)  # Не изменится
+cube1.set_color(255, 70, 15)  # Не изменится
 print(cube1.get_color())
 
 # # Проверка на изменение сторон:
