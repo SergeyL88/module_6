@@ -104,11 +104,11 @@ circle1.set_sides(15)  # Изменится
 print(circle1.get_sides())
 
 
-# print(circle1.get_square())
-# # Проверка периметра (круга), это и есть длина:
-# print(len(circle1))
+print(circle1.get_square())
+# Проверка периметра (круга), это и есть длина:
+print(len(circle1))
 
-# # Проверка объёма (куба):
-# print(cube1.get_volume())
+# Проверка объёма (куба):
+print(cube1.get_volume())
 triangle = Triangle((5, 5, 5), 3, 4, 5)
 print(triangle.get_square())
